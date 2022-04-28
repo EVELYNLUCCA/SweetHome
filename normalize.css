@@ -22,7 +22,8 @@ html {
 
 body {
   margin: 0;
-  font-family:serif;
+  font-family: 'Libre Bodoni',
+  serif;
 }
 
 /**

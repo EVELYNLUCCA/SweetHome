@@ -6,6 +6,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: fixed;
+    top: 0;
 }
 
 .nav .nav_ul{
@@ -14,10 +16,17 @@
 }
 .nav .nav_ul li{
     margin-left: 25px;
-    transition: all 0.5s;
 
 }
-.nav .nav_ul li:hover{
+
+.nav .nav_ul li a{
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.5s;
+}
+
+.nav .nav_ul li a:hover{
+    font-size: 20px;
     color: lightskyblue;
     cursor: pointer;
 }

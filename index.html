@@ -1,49 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--IMPORTAR CSS-->
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="styleNav.css">
-    <link rel="stylesheet" href="styleHero.css">
-    <link rel="stylesheet" href="styleFooter.css">
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="styleNav.css" />
+    <link rel="stylesheet" href="styleHero.css" />
+    <link rel="stylesheet" href="styleFooter.css" />
+    <link rel="stylesheet" href="styleQuienesSomos.css"/>
+    <link rel="stylesheet" href="styleSectionMascotas.css">
     <!---->
 
+    <!-- IMPORTAR FUENTE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Libre+Bodoni:ital,wght@0,400;0,500;1,400&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <!---->
     <title>SweetHome</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav class="nav">
-            <ul class="nav_ul">
-                <li>Inicio</li>
-                <li>Quienes somos</li>
-                <li>Servivios</li>
-                <li>Clientes</li>
-                <li>Contacto</li>
-            </ul>
-        </nav>
+      <nav class="nav">
+        <ul class="nav_ul">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#quienes_somos">Quienes somos</a></li>
+          <li><a href="">Servivios</a></li>
+          <li><a href="">Requisitos</a> </li>
+          <li><a href="">Contacto</a> </li>
+        </ul>
+      </nav>
     </header>
 
     <main>
+      <section id="inicio">
         <div class="heroContainer">
-            <div class="hero_img">
-                <img src="./img/heroImg.jpg" alt="">
-            </div>
+          <div class="hero_img">
+            <img src="./img/heroImg.jpg" alt="" />
+          </div>
 
-            <div class="hero_h1">
-                <h1>Hola! Somos SweetHome, una página dedicada a unir familias con nuevos integrantes. </h1>
-                <button>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">Contactanos</a>
-                </button>
-            </div>
+          <div class="hero_h1">
+            <h1>
+              Hola! Somos SweetHome, una asociación protectora sin fines de
+              lucro destinada a dar en adopción mascotas para hacer familias más
+              felices.
+            </h1>
+
+            <a href="http://" target="_blank" rel="noopener noreferrer"
+              >Contactanos</a
+            >
+          </div>
         </div>
+      </section>
+
+      <section id="quienes_somos">
+        <div>
+            <div class="h2">
+               <h2>Quienes somos</h2>
+            </div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt
+            ipsam quaerat quasi sunt enim rerum reprehenderit voluptates ea,
+            provident quisquam, laudantium inventore, ratione cumque doloremque
+            nisi suscipit hic maiores dolorem! Excepturi sapiente eum quisquam
+            qui, iure magni itaque nemo, molestiae, provident vero animi
+            obcaecati quae accusamus dicta exercitationem similique sequi.
+          </p>
+        </div>
+      </section>
+      
+      <section id="img">
+        <div>
+          <h2>Algunos de nuestros amigos</h2>
+        </div>
+        <div class="div_img">
+          <img src="./img/perro1.png" alt="perro1">
+          <img src="./img/gato.jpg" alt="gato1">
+          <img src="./img/perro5.png" alt="perro2">
+          <img src="img/gatos.jpeg" alt="gato2">
+        </div>
+       
+      </section>
+      
     </main>
 
     <footer>
-        <p>2022 Desarrollado por Evelyn Lucca</p>
+      <p>2022 Desarrollado por Evelyn Lucca</p>
     </footer>
-</body>
+  </body>
 </html>

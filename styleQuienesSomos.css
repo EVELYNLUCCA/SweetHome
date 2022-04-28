@@ -1,0 +1,34 @@
+#quienes_somos{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#quienes_somos div{
+    width: 50%;
+}
+
+#quienes_somos div .h2{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+#quienes_somos div .h2 h2{
+    font-size: 22px;
+    font-weight: 200;
+    text-transform: uppercase;
+    border-bottom: 1px solid lightskyblue;
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+}
+
+#quienes_somos div p{
+    font-size: 25px;
+    text-align: center;
+}
+

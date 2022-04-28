@@ -1,0 +1,9 @@
+#img .div_img{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+}
+#img .div_img img{
+    width: 25%;
+    object-fit: cover;
+}
