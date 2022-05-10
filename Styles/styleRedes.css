@@ -1,0 +1,30 @@
+.redes{
+    width: 25px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: calc(50% - 71px);
+    right: 10px;
+    z-index: 2
+}
+
+.redes div{
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+}
+
+.redes div h3{
+    position: absolute;
+    justify-self: center;
+    margin: 0;
+    left: 300px;
+}
+
+.redes div svg:hover{
+    cursor: pointer;
+}
+
+.redes div h3::first-letter{
+    text-transform: uppercase;
+}

@@ -1,10 +1,11 @@
 #quienes_somos{
-    height: 80vh;
+    height: 70vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 #quienes_somos div{
     width: 50%;
 }
@@ -15,7 +16,6 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
-
 
 #quienes_somos div .h2 h2{
     font-size: 22px;
@@ -32,3 +32,16 @@ justify-content: center;
     text-align: center;
 }
 
+@media only screen and (max-width: 600px){
+    #quienes_somos div {
+        width: 80%;
+    }
+
+    #quienes_somos div .h2 h2{
+        font-size: 18px;
+    }
+
+    #quienes_somos div p {
+        font-size: 18px;
+    }
+}

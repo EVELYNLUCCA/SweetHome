@@ -1,0 +1,97 @@
+#img .div_img{
+    width: 100%;
+    height: 65vh;
+    display: flex;
+}
+
+#img .div_img .container{
+    min-width: 25%;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+
+#img .div_img .container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+}
+
+#img .div_img .container img:hover {
+    opacity: 0;
+}
+
+#img .div_img .container .text_photos {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(139, 216, 233);;
+    z-index: -10;
+}
+
+#img .div_img .container .text_photos h2{
+    text-align: center;
+}
+
+#img .div_img .container .text_photos img{
+    opacity: 0.4;
+}
+
+#img .div_img .container .text_photos p{
+    text-align: center;
+    font-size: 19px;
+    position: absolute;
+    padding: 15px;
+
+}
+
+#img .div-img{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(109, 191, 209);
+}
+#img .div-img h2{
+    font-size: 22px;
+    font-weight: 200;
+    text-transform: uppercase;
+    border-bottom: 1px solid white;
+    width: 40%;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+@media only screen and (max-width: 768px){
+    #img .div_img{
+        overflow: scroll;
+    }
+
+    #img .div_img .container{
+        min-width: 50%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    #img .div-img h2{
+        width: 70%;
+        padding: 15px;
+        font-size: 18px;
+    }
+
+    #img .div_img{
+        height: 50vh;
+    }
+
+    #img .div_img .container .text_photos h2{
+        font-size: 18px;
+    }
+
+    #img .div_img .container .text_photos p{
+        font-size: 15px;
+    }
+}
