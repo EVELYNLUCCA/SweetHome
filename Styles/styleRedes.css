@@ -28,3 +28,9 @@
 .redes div h3::first-letter{
     text-transform: uppercase;
 }
+
+@media only screen and (max-width: 600px){
+    .redes{
+        width: 20px;
+    }
+}

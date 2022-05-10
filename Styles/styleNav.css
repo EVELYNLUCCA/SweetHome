@@ -31,3 +31,27 @@
     color: lightskyblue;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 768px){
+    .nav .nav_ul{
+        width: 75%;
+        padding: 0;
+        justify-content: space-around;
+    }
+
+    .nav .nav_ul li{
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .nav .nav_ul{
+        width: 100%;
+        padding: 0;
+        justify-content: space-around;
+    }
+    .nav .nav_ul li{
+        font-size: 13px;
+        margin-left: 0;
+    }
+}
