@@ -1,0 +1,20 @@
+function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+<button onclick="myFunction()">Clickeame</button>
+
+<div id="myDIV" style="border:1px solid black;">
+<!-- Este elemento aparece y desaparece con el botón -->
+</div>
+
+
+<!-- Esta podria ser la forma en la que decia Ariel.?function esperar(delay) { -->
+    var start = new Date().getTime();
+    while (new Date().getTime() < start + delay);
+}
