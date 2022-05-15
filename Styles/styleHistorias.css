@@ -2,11 +2,13 @@ main{
     width: 100%;
     margin-top: 70px;
 }
+
 #historias{
     height: 80vh;
     background-color: rgb(109, 191, 209);
     color: whitesmoke;
 }
+
 #historias .historias_titulo{
 display: flex;
 width: 100%;
@@ -89,6 +91,7 @@ padding: 20px 0px;
     justify-content: center;
     text-transform: uppercase;
 }
+
 #requisitos .requisitos_title h2{
     font-size: 22px;
     font-weight: 200;
@@ -130,19 +133,126 @@ padding: 20px 0px;
     border-bottom: 1px solid rgb(109, 191, 209);
 }
 
-
 #como_ayudar h3{
     font-size: 21px;
     background-color: rgb(212, 230, 245);
     font-weight: 590;
     text-align: center;
+    padding: 10px;
 }
 
 #como_ayudar ul li{
     margin: 18px;
     font-size: 19px;
 }
+
 #como_ayudar ul li .donaciones{
     list-style: none;
 }
 
+@media only screen and (max-width: 768px){
+main .redes{
+    margin-right: 6px;
+}
+main #historias {
+    width: 97%;
+    height: 80vh;
+}
+#historias .historias_titulo{
+    padding-left: 17px;
+    text-align: center;
+    font-size: 15px;
+}
+#historias .historias_titulo img{
+    margin-right: 40px;
+}
+main #como_funciona{
+    height: 55vh;
+}
+main #como_funciona h2{
+    font-size: 18px;
+}
+main #como_funciona p{
+    font-size: 16px;
+}
+main #requisitos {
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+}
+main #requisitos .requisitos_title h2{
+    font-size: 18px;
+    margin-top: -30px;
+}
+main #requisitos .requisitos_li ul li{
+    font-size: 17px;
+}
+main #como_ayudar{
+    width: 95%;
+}
+main #como_ayudar .subtitle h2{
+    font-size: 17px;
+}
+main #como_ayudar h3{
+    font-size: 18px;
+    width: 90%;
+    margin:auto;
+    padding: 5px;
+}
+main #como_ayudar ul li{
+    font-size: 16px;
+}
+main #como_ayudar .donaciones li{
+    font-size: 16px;
+}
+}
+
+
+@media only screen and (max-width: 600px){
+    main #historias{
+        width:97% ;
+        height: 60vh;
+    }
+    #historias .historias_titulo{
+        font-size: 10px;
+        margin-bottom: -20px;
+    }
+    #historias .historias_titulo img{
+        height: 10vh;
+    }
+    main #como_funciona{
+        height: 50vh;
+    }
+    main #como_funciona h2{
+    font-size: 13px;
+    }
+    main #como_funciona p{
+        font-size:14px ;
+    }
+    main #requisitos{
+        height: 85vh;
+    }
+    main #requisitos .requisitos_title h2{
+        font-size: 13px;
+    }
+    main #requisitos .requisitos_li ul li{
+        font-size: 12px;
+    }
+    main como_ayudar{
+
+    }
+    main #como_ayudar .subtitle h2{
+        font-size: 13px;
+    }
+    main #como_ayudar h3{
+        font-size: 14px;
+    }
+    main #como_ayudar ul li{
+        font-size: 12px;
+    }
+    main #como_ayudar .donaciones li{
+        font-size: 12px;
+    }
+}
