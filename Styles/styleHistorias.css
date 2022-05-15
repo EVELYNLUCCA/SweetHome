@@ -152,7 +152,7 @@ padding: 20px 0px;
 
 @media only screen and (max-width: 768px){
 main .redes{
-    margin-right: 6px;
+    margin-right: 12px;
 }
 main #historias {
     width: 97%;
@@ -176,11 +176,14 @@ main #como_funciona p{
     font-size: 16px;
 }
 main #requisitos {
-    height: 85vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 98%;
+}
+main #requisitos .requisitos_title{
+    height: 80px;
 }
 main #requisitos .requisitos_title h2{
     font-size: 18px;
@@ -233,6 +236,9 @@ main #como_ayudar .donaciones li{
     }
     main #requisitos{
         height: 85vh;
+    }
+    main #requisitos .requisitos_title{
+        height: 80px;
     }
     main #requisitos .requisitos_title h2{
         font-size: 13px;
