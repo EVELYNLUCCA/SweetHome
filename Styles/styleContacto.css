@@ -40,6 +40,12 @@ main #formulario form textarea{
     resize: none;
 }
 
+main #formulario form input:focus, 
+main #formulario form textarea:focus{
+    border: none;
+    outline: 1px solid black;
+}
+
 main #formulario form label{
     margin-top: 10px;
     border: none;
