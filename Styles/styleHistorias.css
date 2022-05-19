@@ -161,7 +161,7 @@ padding: 20px 0px;
     text-align: center;
 }
 #como_ayudar .video video {
-    height: 90vh;
+    height: 90%;
 }
 
 @media only screen and (max-width: 768px){
@@ -196,13 +196,26 @@ main #requisitos {
     justify-content: center;
     width: 98%;
 }
-main #requisitos .requisitos_title{
-    height: 80px;
-}
+
 main #requisitos .requisitos_title h2{
     font-size: 18px;
-    margin-top: -30px;
 }
+
+main #requisitos .requisitos_li{
+    height: 80%;
+    width: 100%;
+}
+
+main #requisitos .requisitos_li img{
+    width: 50%;
+}
+
+main #requisitos .requisitos_li ul{
+    width: 50%;
+    padding: 0;
+    height: 100%;
+}
+
 main #requisitos .requisitos_li ul li{
     font-size: 17px;
 }
@@ -223,6 +236,20 @@ main #como_ayudar ul li{
 }
 main #como_ayudar .donaciones li{
     font-size: 16px;
+}
+
+#como_ayudar .video {
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#como_ayudar .video p{
+    width: 95%;
+}
+
+#como_ayudar .video video{
+    width: 40%;
 }
 }
 
@@ -260,9 +287,6 @@ main #como_ayudar .donaciones li{
     main #requisitos .requisitos_li ul li{
         font-size: 12px;
     }
-    main como_ayudar{
-
-    }
     main #como_ayudar .subtitle h2{
         font-size: 13px;
     }
@@ -274,5 +298,9 @@ main #como_ayudar .donaciones li{
     }
     main #como_ayudar .donaciones li{
         font-size: 12px;
+    }
+
+    #como_ayudar .video video {
+        width: 70%;
     }
 }
