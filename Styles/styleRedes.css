@@ -19,6 +19,8 @@
     justify-self: center;
     margin: 0;
     left: 300px;
+    font-weight: 100;
+    text-align: center;
 }
 
 .redes div svg:hover{

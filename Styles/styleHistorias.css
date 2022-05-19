@@ -148,6 +148,20 @@ padding: 20px 0px;
 
 #como_ayudar ul li .donaciones{
     list-style: none;
+}   
+#como_ayudar .video{
+    background-color: rgb(212, 230, 245);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+#como_ayudar .video p{
+    font-size: 23px;
+    width: 30%;
+    text-align: center;
+}
+#como_ayudar .video video {
+    height: 90vh;
 }
 
 @media only screen and (max-width: 768px){
@@ -223,7 +237,7 @@ main #como_ayudar .donaciones li{
         margin-bottom: -20px;
     }
     #historias .historias_titulo img{
-        height: 10vh;
+        height: 50%;
     }
     main #como_funciona{
         height: 50vh;
