@@ -65,7 +65,7 @@ main #mapa{
 }
 
 main #mapa iframe{
-    height: 89vh;
+    height: 70vh;
     width: 100%;
     border-radius: 20px;
 }
@@ -110,9 +110,12 @@ main p{
     }
     main #mapa {
         display: flex;
-        width: 90%;
-        height: 30%;
-        margin-bottom: 30px;
+        width: 100%;
+        height: 100%;
+    }
+    main #mapa iframe{
+        width: 100%;
+        height: 100%;
     }
     main #formulario {
         width: 90%;

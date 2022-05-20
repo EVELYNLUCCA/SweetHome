@@ -156,9 +156,10 @@ padding: 20px 0px;
     justify-content:center;
 }
 #como_ayudar .video p{
-    font-size: 23px;
+    font-size: 25px;
     width: 30%;
     text-align: center;
+    padding: 30px;
 }
 #como_ayudar .video video {
     height: 90%;
@@ -186,13 +187,18 @@ main #como_funciona{
 main #como_funciona h2{
     font-size: 18px;
     height: 20%;
+    line-height: 100px;
+    text-align: center;
+    
+
+    
 }
 main #como_funciona p{
     font-size: 16px;
     height: 70%;
 }
 main #requisitos {
-    height: 90vh;
+    height: 95vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -275,13 +281,16 @@ main #como_ayudar .donaciones li{
         object-fit: contain;
     }
     main #como_funciona{
-        height: 50vh;
+        height: 60vh;
+        margin-top: -30px;
     }
     main #como_funciona h2{
     font-size: 13px;
+    padding: 10px;
     }
     main #como_funciona p{
-        font-size:14px ;
+        font-size:14px;
+        margin: 0;
     }
     main #requisitos{
         height: 85vh;
